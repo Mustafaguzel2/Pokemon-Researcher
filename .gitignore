@@ -1,0 +1,21 @@
+# Ignore JavaScript temp files
+tempCodeRunnerFile.js
+
+# Ignore CSS files
+*.css
+
+# Ignore HTML files
+*.html
+
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db 
