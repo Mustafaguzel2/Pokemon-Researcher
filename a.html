@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Search App</title>
+  <link rel="stylesheet" href="b.css">
+  
+</head>
+<body>
+  <header>
+    <img src = "https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="freecodecampImg"/>
+    <h1>Pokemon Search App</h1>
+  </header>
+  <main>
+    <section id="enterence">
+      <h2>Search for Pokemon Name or ID:</h2>
+      <input id= "search-input" required>
+      <button id = "search-button">Search</button>
+    </section>
+    <section id="pokemon-container" aria-disabled="true">
+      <span><p id="pokemon-name"></p>
+      <p id="pokemon-id"></p></span>
+      <span><p id="weight"></p>
+      <p id="height"></p></span>
+      <p id="types"></p>
+    </section>
+    <section id="stats">
+      <table id="pokemon-stats">
+        <thead>
+          <tr>
+            <th>Base</th>
+            <th>Stats</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr>
+            <td>HP:</td>
+            <td id="hp"></td>
+          </tr>
+          <tr>
+            <td>Attack:</td>
+            <td id="attack"></td>
+          </tr>
+          <tr>
+            <td>Defense:</td>
+            <td id="defense"></td>
+          </tr>
+          <tr>
+            <td>Sp. Attack:</td>
+            <td id="special-attack"></td>
+          </tr>
+          <tr>
+            <td>Sp. Defense:</td>
+            <td id="special-defense"></td>
+          </tr>
+          <tr>
+            <td>Speed:</td>
+            <td id="speed"></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <script src="c.js"></script>
+  </main>
+</body>
+</html>

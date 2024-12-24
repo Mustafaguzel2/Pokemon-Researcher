@@ -1,0 +1,107 @@
+html{
+    background-color: rgb(96, 1, 97);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header{
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+header > img{
+    width: 400px;
+    height: 200px;
+    margin-bottom: -50px;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+main{
+    width: 600px;
+    height: 850px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 20px 19px 18px rgb(0, 0, 0), 0 25px 350px rgba(0, 0, 0, 0.52);
+}
+#enterence{
+    color: rgb(255, 0, 255);
+}
+#enterence > input{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+#enterence > button{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(255, 0, 255);
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(255, 0, 255);
+}
+#enterence > button:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 255);
+    background-color: white;
+    border-color: white;
+}
+#pokemon-container{
+    align-items: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#pokemon-container > p{
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+#pokemon-container > span{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#pokemon-container > span > p{
+    margin-right: 0.5rem;
+}
+#pokemon-container > img{
+    width: 140px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+#stats{
+    width: 450px;
+    color: white;
+    background-color: rgba(255, 0, 255, 0.437);
+    border-radius: 30px;
+}
+#pokemon-stats{
+    font-size: 1.4rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+#pokemon-stats td, th{
+    border: 8.5px solid rgb(96, 1, 97);
+    padding: 8px;
+    table-layout: fixed;
+}
